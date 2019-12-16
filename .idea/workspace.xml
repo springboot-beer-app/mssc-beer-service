@@ -1,23 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c808a56-7c97-4183-900d-5a11e64c038b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/viv/mssc/service/DummtData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/viv/mssc/util/BeerUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viv/mssc/MsscBeerServiceApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viv/mssc/controller/MSSCBeerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viv/mssc/model/BeerData$BeerDataBuilder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viv/mssc/model/BeerData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viv/mssc/model/BeerStyleEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viv/mssc/service/BeerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viv/mssc/service/BeerServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viv/mssc/service/DummtData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/viv/mssc/util/BeerUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/viv/mssc/MsscBeerServiceApplicationTests.class" afterDir="false" />
+    <list default="true" id="5c808a56-7c97-4183-900d-5a11e64c038b" name="Default Changelist" comment="Get endpoint Closes #2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/viv/mssc/controller/MSSCBeerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viv/mssc/controller/MSSCBeerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/viv/mssc/service/BeerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/viv/mssc/service/BeerServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576398608071</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Get endpoint Closes #2">
+      <created>1576516725757</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576516725757</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,7 +132,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial files Closes #1" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial files Closes #1" />
+    <MESSAGE value="Get endpoint Closes #2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get endpoint Closes #2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576516039298">
@@ -155,10 +148,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="116" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1576394383271" />
-    <state x="195" y="0" key="CommitChangelistDialog2" timestamp="1576516670658">
+    <state x="195" y="0" key="CommitChangelistDialog2" timestamp="1576516799582">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="195" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1576516670658" />
+    <state x="195" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1576516799582" />
     <state width="1236" height="204" key="GridCell.Tab.0.bottom" timestamp="1576516670691">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -205,7 +198,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/viv/mssc/service/BeerServiceImpl.java</url>
-          <line>29</line>
+          <line>16</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

@@ -1,0 +1,9 @@
+com\viv\mssc\util\BeerUtil.class
+com\viv\mssc\model\BeerData.class
+com\viv\mssc\service\BeerService.class
+com\viv\mssc\controller\MSSCBeerController.class
+com\viv\mssc\MsscBeerServiceApplication.class
+com\viv\mssc\service\BeerServiceImpl.class
+com\viv\mssc\model\BeerData$BeerDataBuilder.class
+com\viv\mssc\model\BeerStyleEnum.class
+com\viv\mssc\service\DummtData.class

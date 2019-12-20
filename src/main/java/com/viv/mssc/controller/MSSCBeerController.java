@@ -5,12 +5,10 @@ import com.viv.mssc.model.BeerStyleEnum;
 import com.viv.mssc.service.BeerService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/v1/beer")
@@ -29,6 +27,11 @@ public class MSSCBeerController {
                                                  @RequestParam boolean showInventoryOnHand) {
         return new ResponseEntity<>(beerService.getBeers(pageNum,pageSize,beerName,beerStyle,
                 showInventoryOnHand), HttpStatus.OK);
+    }
+
+    @GetMapping({"/{id}"})
+    public ResponseEntity<BeerData> getByID(@PathVariable("id") UUID uuid) {
+        return new ResponseEntity<>(beerService.getBeerById(uuid),HttpStatus.OK);
     }
 
 }
